@@ -1,0 +1,80 @@
+{% extends "forum/base.html" %}
+{% block content %}
+    {% if user.is_authenticated %}
+        <article class="media content-section">
+            <div class="container">
+                <h3>Hello {{ user.first_name.capitalize }} {{ user.last_name.capitalize }}!</h3>
+                <h6>
+                    <form method="get" action="{% url 'search-post' %}">
+                        <input id="searchbar" type="text" name="q" class="btn btn-light"
+                               placeholder="Search for answers..">
+                        <button id="searchbar" type="submit" class="btn btn-dark">Search</button>
+                    </form>
+                </h6>
+                <a class="btn btn-dark" href="{% url 'post-create' %}">
+                    <h6 style="color: #ffffff">
+                        <i class='fa fa-edit' style="font-size:15px"></i>
+                        Post a Question
+                    </h6>
+                </a>
+            </div>
+        </article>
+        {% for post in posts %}
+            <article class="media content-section">
+                <div class="media-left">
+                    <img src="{{ post.author.profile.image.url }}" class="rounded-circle article-img" alt="no image">
+                </div>
+                <div class="media-body">
+                    <div class="article-metadata">
+                        <a class="mr-2 " href="{% url 'user-posts' post.author.username %}">{{ post.author }}</a>
+                        <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
+                    </div>
+                    <h2><a class="article-title" href="{% url 'post-detail' pk=post.pk %}">{{ post.title }}</a></h2>
+                    <p class="article-content">{{ post.content }}</p>
+                    <div class="btn ">
+                        <a href="{% url 'post-detail' pk=post.pk %}" class="btn btn-primary">
+                            <i class='fa fa-comment' style='font-size:20px'></i>
+                            Answers
+                            {{ post.approved_comments.count }}
+                        </a>
+                    </div>
+                </div>
+            </article>
+        {% endfor %}
+        {% if is_paginated %}
+            {% if page_obj.has_previous %}
+                <a class="btn btn-outline-info mb-4" href="?page=1">First</a>
+                <a class="btn btn-outline-info mb-4" href="?page={{ page_obj.previous_page_number }}">Previous</a>
+            {% endif %}
+
+            {% for num in page_obj.paginator.page_range %}
+                {% if page_obj.number == num %}
+                    <a class="btn btn-info mb-4" href="?page={{ num }}">{{ num }}</a>
+                {% elif num > page_obj.number|add:'-3' and num < page_obj.number|add:'3' %}
+                    <a class="btn btn-outline-info mb-4" href="?page={{ num }}">{{ num }}</a>
+                {% endif %}
+            {% endfor %}
+            {% if page_obj.has_next %}
+                <a class="btn btn-outline-info mb-4" href="?page={{ page_obj.next_page_number }}">Next</a>
+                <a class="btn btn-outline-info mb-4" href="?page={{ page_obj.paginator.num_pages }}">Last</a>
+            {% endif %}
+        {% endif %}
+        </div>
+        <div class="col-md-4">
+        <div class="content-section">
+            <h3>Services We Provide!</h3>
+            <p>
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-light">
+                    <a href="#">Announcements</a>
+                </li>
+            </ul>
+            </p>
+        </div>
+    {% else %}
+        <div class="alert alert-info">
+            You are not logged in.
+        </div>
+        <a href="{% url 'login' %}">Log In Here</a>
+    {% endif %}
+{% endblock content %}

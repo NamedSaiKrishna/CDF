@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d66db50-2c64-47d4-9476-aea3abc56142" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1QpPYOMKyJqzJBWViNbElBmymyl" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sai Krishna K\Documents\Projects\CDF" />
+      <recent name="C:\Users\Sai Krishna K\Documents\Projects\ODF\forum\templates\forum" />
+      <recent name="C:\Users\Sai Krishna K\Documents\Projects\ODF\users\templates\users" />
+      <recent name="C:\Users\Sai Krishna K\Documents\Projects\ODF\search\templatetags" />
+      <recent name="C:\Users\NamedSaiKrishna\Documents\Projects\ODF\forum\templates\forum" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ODF" type="Python.DjangoServer" factoryName="Django server">
+      <module name="ODF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="ODF.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server" editBeforeRun="true">
+      <module name="ODF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d66db50-2c64-47d4-9476-aea3abc56142" name="Default Changelist" comment="" />
+      <created>1568464610716</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568464610716</updated>
+      <workItem from="1568464618824" duration="13966000" />
+      <workItem from="1568523992114" duration="5583000" />
+      <workItem from="1568531163884" duration="9822000" />
+      <workItem from="1568706009450" duration="7207000" />
+      <workItem from="1568728671620" duration="245000" />
+      <workItem from="1568728935225" duration="6838000" />
+      <workItem from="1568912396261" duration="270000" />
+      <workItem from="1568986261878" duration="397000" />
+      <workItem from="1569045855604" duration="12144000" />
+      <workItem from="1569133027722" duration="7607000" />
+      <workItem from="1569143112881" duration="3364000" />
+      <workItem from="1569303382801" duration="6761000" />
+      <workItem from="1569319128052" duration="2362000" />
+      <workItem from="1569508820260" duration="1915000" />
+      <workItem from="1569935174245" duration="577000" />
+      <workItem from="1569935816521" duration="3509000" />
+      <workItem from="1569939639505" duration="3582000" />
+      <workItem from="1570101515540" duration="5432000" />
+      <workItem from="1570184134663" duration="1202000" />
+      <workItem from="1570195086653" duration="4796000" />
+      <workItem from="1570247298556" duration="3348000" />
+      <workItem from="1570253806134" duration="3169000" />
+      <workItem from="1570266111334" duration="4710000" />
+      <workItem from="1570281869688" duration="4226000" />
+      <workItem from="1570331731663" duration="26198000" />
+      <workItem from="1570430910105" duration="11270000" />
+      <workItem from="1570779073039" duration="9909000" />
+      <workItem from="1570809644571" duration="10477000" />
+      <workItem from="1570854503415" duration="2152000" />
+      <workItem from="1570880413560" duration="247000" />
+      <workItem from="1570975996102" duration="8739000" />
+      <workItem from="1571048680198" duration="1671000" />
+      <workItem from="1571063256500" duration="4939000" />
+      <workItem from="1571267753867" duration="200000" />
+      <workItem from="1571268016972" duration="352000" />
+      <workItem from="1571270124828" duration="1707000" />
+      <workItem from="1571278237831" duration="233000" />
+      <workItem from="1571333509707" duration="40682000" />
+      <workItem from="1571617063665" duration="5237000" />
+      <workItem from="1571678851329" duration="18116000" />
+      <workItem from="1571801766708" duration="7331000" />
+      <workItem from="1571809483425" duration="184000" />
+      <workItem from="1571809684136" duration="4939000" />
+      <workItem from="1571881839473" duration="3442000" />
+      <workItem from="1572107093865" duration="4563000" />
+      <workItem from="1572116071059" duration="1000" />
+      <workItem from="1572227841225" duration="190000" />
+      <workItem from="1573219941964" duration="2672000" />
+      <workItem from="1573228336002" duration="2484000" />
+      <workItem from="1573231061036" duration="1498000" />
+      <workItem from="1573298249644" duration="4494000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

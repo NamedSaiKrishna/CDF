@@ -1,0 +1,140 @@
+body {
+    background: #fafafa;
+    color: #333333;
+    margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+}
+
+ul {
+    margin: 0;
+}
+
+.bg-steel {
+    background-color: #ffffff;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.site-header .navbar-nav .nav-link {
+    color: #000000;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+    background: #D3D3D3;
+    border-radius: 50px;
+}
+
+.site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+}
+
+.content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.article-title {
+    color: #444444;
+}
+
+a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+}
+
+.article-content {
+    white-space: pre-line;
+}
+
+.article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+}
+
+.article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+}
+
+.account-heading {
+    font-size: 2.5rem;
+}
+
+.list-group li a {
+    text-decoration: none;
+    color: #444444;
+}
+
+.btn {
+    border-radius: 50px;
+}
+
+#badge {
+    border-radius: 50%;
+}
+
+.comment {
+    margin: 20px 0 20px 20px;
+}
+
+.notification {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.notification:hover {
+    background: #D3D3D3;
+    border-radius: 50px;
+}
+
+.notification .badge {
+    position: absolute;
+    top: -8px;
+    right: -16px;
+    padding: 3px 6px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+
+#searchbar {
+    padding: 3px 6px;
+    border: 1px solid #dddddd;
+}
+
+
+
+
+
+
+
+
+
